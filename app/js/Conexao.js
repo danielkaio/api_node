@@ -24,7 +24,7 @@ let update = con.query(
 let app = express()
 
 app.get('/', (res, req) => {
-    req.send("ola")
+    req.send("teste")
 
 })
 
